@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Gazer</title>
+</head>
+<body>
+
+   
+    <!-- <button onclick="crystalGazer()">Click me</button> -->
+    <p class="output" ></p>
+
+    <script>
+
+    function crystalGazer() {
+        var children = 2;
+        var partner = "Mary";
+        var location = "Vienna";
+        var job_title = "chef";
+
+        document.getElementsByClassName("output")[0].innerHTML = "You will be a " + job_title + " in " + location + " and married to " + partner + " with " + children + " children."
+    }
+
+    crystalGazer();
+
+    </script>
+
+</body>
+</html>
+
+
+
+
+Write a function named crystalGazer() 
+that takes four arguments: number of children, 
+partner's name, geographic location and job title. 
+Once the user passes the four arguments the program 
+should output the following message on screen:
+
+You will be a job_title in location and married to partners_name 
+with number_childrens.
