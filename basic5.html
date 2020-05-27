@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p class="output" ></p>
+
+    <script>
+        function volumeCalc(){
+        width = 1;
+        height = 14;
+        depth = 5;
+        area = width * height;
+        volume = area * depth;
+     
+        document.getElementsByClassName("output")[0].innerHTML = "The area of the box is " + area + " .<br>" + "The volume of the box is " + volume + ".";
+    }
+
+    volumeCalc()
+
+    </script>
+</body>
+</html>
