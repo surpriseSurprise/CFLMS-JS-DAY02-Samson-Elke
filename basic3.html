@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Gazer</title>
+</head>
+<body>
+
+   
+    <!-- ASK -->
+    <p class="output" ></p>
+
+    <script>
+
+    function ageCalculator() {
+        var birthYear = 1992;
+        age = new Date().getFullYear() - birthYear;
+
+
+        document.getElementsByClassName("output")[0].innerHTML = "You are " + age + " years old."
+    }
+
+    ageCalculator();
+
+    </script>
+
+</body>
+</html>
+
+Enhance your previous exercise in terms of how to get the
+current year in JavaScript instead of passing it in.
+ Provide the same results just through passing one argument.
+
+You should get the following results:
+
+You are either 29 or 28
+
